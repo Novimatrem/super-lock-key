@@ -60,6 +60,15 @@ dm-tool lock
 
 dbus-send --type=method_call --dest=org.gnome.ScreenSaver /org/gnome/ScreenSaver org.gnome.ScreenSaver.Lock
 
+sleep 0.5s
+xset dpms force off
+sleep 0.5s
+xset dpms force off
+sleep 0.5s
+xset dpms force off
+sleep 0.5s
+xset dpms force off
+sleep 0.5s
 xset dpms force off
 
 exit
