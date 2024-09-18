@@ -71,4 +71,6 @@ xset dpms force off
 sleep 0.5s
 xset dpms force off
 
+sleep 1s && xset dpms force standby
+
 exit
