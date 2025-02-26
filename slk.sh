@@ -58,6 +58,11 @@ xdg-screensaver lock
 sleep 0.3s
 dm-tool lock
 
+clear && xscreensaver-command --help
+xscreensaver-command -activate
+xscreensaver-command -lock
+xscreensaver-command -suspend
+
 dbus-send --type=method_call --dest=org.gnome.ScreenSaver /org/gnome/ScreenSaver org.gnome.ScreenSaver.Lock
 
 sleep 0.5s
